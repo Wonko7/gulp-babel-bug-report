@@ -1,3 +1,3 @@
-const hello = greeting => console.log(greeting)
+const hello = greeting => { throw new Error(greeting); }
 
 export { hello };
