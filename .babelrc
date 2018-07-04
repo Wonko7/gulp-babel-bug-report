@@ -1,0 +1,15 @@
+{
+  "presets": [
+    ["@babel/env", {
+      "targets": {
+        "node": "current"
+      },
+        "useBuiltIns": "usage",
+    }]
+  ],
+  "plugins": [
+    "add-module-exports",
+    "@babel/plugin-transform-strict-mode"
+  ],
+  "sourceMaps": true
+}

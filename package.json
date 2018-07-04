@@ -1,0 +1,26 @@
+{
+  "name": "sm-bugreport",
+  "version": "1.0.0",
+  "description": "",
+  "author": "lol",
+  "license": "lol",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "gulp build",
+    "build-concat": "gulp build-concat"
+  },
+  "dependencies": {
+    "@babel/polyfill": "7.0.0-beta.51",
+  },
+  "devDependencies": {
+    "@babel/cli": "7.0.0-beta.51",
+    "@babel/core": "7.0.0-beta.51",
+    "@babel/preset-env": "7.0.0-beta.51",
+    "@babel/register": "7.0.0-beta.51",
+    "babel-plugin-add-module-exports": "0.3.0-pre.2",
+    "gulp": "^3.9.1",
+    "gulp-babel": "8.0.0-beta.2",
+    "gulp-concat": "2.6.1",
+    "gulp-sourcemaps": "2.6.4",
+  }
+}
